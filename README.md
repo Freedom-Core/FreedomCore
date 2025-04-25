@@ -27,6 +27,19 @@
 
 The architecture of FreedomCORE is designed for flexibility, security, and interoperability across a wide range of digital systems.
 
+- **Identity & Authentication Layer**: This layer is responsible for managing and verifying identities using secure authentication protocols.
+- **Universal API Layer**: The Universal API connects all systems and services, providing access through standard interfaces.
+- **Language Bridge Layer**: Ensures the protocol works seamlessly across different programming languages through SDKs and wrappers.
+- **Device Layer**: Includes the physical and virtual devices that communicate using FreedomCORE, from IoT devices to servers.
+- **Messaging & Transport Layer**: This layer manages the encrypted and secure communication channels between devices.
+- **Security & Encryption Layer**: Responsible for ensuring end-to-end encryption and securing data, ensuring zero-trust architecture.
+- **Data Layer**: This layer manages decentralized data storage, ensuring transparency and privacy compliance (e.g., GDPR).
+- **Trust Layer**: Ensures all actions within the protocol are verifiable, transparent, and trusted by participants.
+- **Blockchain Layer**: Uses a public blockchain for governance, transparency, and integrity of transactions within the protocol.
+- **Legal Layer**: Handles compliance with European regulations like GDPR, ensuring that the protocol operates legally across jurisdictions.
+- **Quantum-Resistant Crypto Layer**: Prepares the protocol for future cryptographic needs, especially with the advent of quantum computing.
+- **Notification Layer**: Handles alerts, reports, and notifications, keeping users and stakeholders informed of critical events.
+
 ---
 
 ## Use Cases
