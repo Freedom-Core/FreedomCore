@@ -25,23 +25,8 @@
 
 ## Architecture
 
-The architecture of FreedomCORE is designed for flexibility, security, and interoperability across a wide range of digital systems. Below is a high-level overview:
+The architecture of FreedomCORE is designed for flexibility, security, and interoperability across a wide range of digital systems.
 
-```plaintext
-+---------------------------------------------------------------+
-|                       FREEDOMCORE PROTOCOL                    |
-|                                                               |
-|  +-------------+    +---------------+     +----------------+  |
-|  | Identity &    |  | Universal API | --> | Language Bridge | |
-|  | Authentication|  | Layer         |     | (via adapters)  | |
-|  +-------------+    +---------------+     +----------------+  |
-|         |                    |                      |         |
-|     +---v---+         +------v------+        +------v------+  |
-|     | Device |<-----> | Messaging   |<----->| Security &  |   |
-|     | Layer  |        | & Transport |       | Encryption  |   |
-|     +--------+        +-------------+       +-------------+   |
-+---------------------------------------------------------------+
-```
 ---
 
 ## Use Cases
